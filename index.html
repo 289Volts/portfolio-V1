@@ -17,11 +17,16 @@
             <a class="logo" href="index.html">289<span class="volts">VOLTS.fe</span><span class="blink">_</span></a>
             <img class="menu" id="menu" onclick="toggle()" src="images/menu-svgrepo-com.svg" alt="">
             <nav id="nav">
-                <ul class="nav-links" >
-                    <li class="nav-list"><a onclick="hide()" class="nav-link" href="#about"><span aria-hidden="true" class="comment">//</span>About</a></li>
-                    <li class="nav-list"><a onclick="hide()" class="nav-link" href="#services"><span aria-hidden="true" class="comment">//</span>Services</a></li>
-                    <li class="nav-list"><a onclick="hide()" class="nav-link" href="#project"><span aria-hidden="true" class="comment">//</span>Projects</a></li>
-                    <li class="nav-list"><a onclick="hide()" class="nav-link" href="contact.html"><span aria-hidden="true"
+                <ul class="nav-links">
+                    <img class="close" id="menu" onclick="hide()" src="images/close-svgrepo-com.svg" alt="">
+                    <li class="nav-list"><a onclick="hide()" class="nav-link" href="#about"><span aria-hidden="true"
+                                class="comment">//</span>About</a></li>
+                    <li class="nav-list"><a onclick="hide()" class="nav-link" href="#services"><span aria-hidden="true"
+                                class="comment">//</span>Services</a></li>
+                    <li class="nav-list"><a onclick="hide()" class="nav-link" href="#project"><span aria-hidden="true"
+                                class="comment">//</span>Projects</a></li>
+                    <li class="nav-list"><a onclick="hide()" class="nav-link" href="contact.html"><span
+                                aria-hidden="true"
                                 class="comment">//</span>Contact</a></li>
                 </ul>
             </nav>
@@ -32,7 +37,7 @@
                     <img class="hero-img" src="images/hello.png" alt="memoji">
                     <div class="hero-section__text">
                         <h1 class="hero-heading">JOSHUA ROLAND '289VOLTS'</h1>
-                        <h3 class="hero-subtitle">Frontend Developer</h3>
+                        <h3 class="hero-subtitle color-heading">Frontend Developer</h3>
                     </div>
                 </div>
                 <a href="#about" class="scroll">
@@ -42,9 +47,9 @@
             </section>
 
             <section id="about" class="about container">
-                <img src="images/roland.jpg" alt="a picture of Roland" class="about-img">
+                <img src="images/roland.jpg" alt="a picture of Roland" class="about-img"><h2 class="heading">About Me</h2>
                 <div class="about-text-content">
-                    <h2 class="heading">About Me</h2>
+                    
                     <div class="about-copy">
                         <p class="about-text"><span class="into-text">Hello, I'm Roland.</span> I am a internet-taught
                             frontend
@@ -56,19 +61,24 @@
                     <hr>
                     <br>
                     <div class="about--copy">
-                        <p class="about-text">When i'm not coding, you'll either find me playing Call of Duty Mobile or on YouTube watching game replays from my
+                        <p class="about-text">When i'm not coding, you'll either find me playing Call of Duty Mobile or
+                            on YouTube watching game replays from my
                             favorite
                             gamer
-                            <a class="ext-link" href="https://www.youtube.com/user/parkertheslayer" target="_blank">ParkerTheSlayer</a>, tech
+                            <a class="ext-link" href="https://www.youtube.com/user/parkertheslayer" target="_blank">ParkerTheSlayer</a>,
+                            tech
                             videos from <a class="ext-link"
                                 href="https://www.youtube.com/c/mrwhosetheboss" target="_blank">MrWhoseTheBoss</a>
                             and <a class="ext-link"
-                                href="https://www.youtube.com/HOWITSHOULDHAVEENDED" target="_blank">HISHE(How It Should Have
+                                href="https://www.youtube.com/HOWITSHOULDHAVEENDED" target="_blank">HISHE(How It Should
+                                Have
                                 Ended)</a>.</p>
                     </div>
                     <div class="about--copy">
-                        <p class="about-text"> Over the years, i have developed <strong>soft skills</strong> which include good
-                            <strong>communication</strong> and <strong>analytical skills</strong>, as well as <strong>collaboration</strong> which will enable me provide
+                        <p class="about-text"> Over the years, i have developed <strong>soft skills</strong> which
+                            include good
+                            <strong>communication</strong> and <strong>analytical skills</strong>, as well as <strong>collaboration</strong>
+                            which will enable me provide
                             value
                             to any organization or individual client i work with.</p>
                     </div>
@@ -94,8 +104,10 @@
                             <img src="images/html-svgrepo-com.svg" alt="html logo" class="FE-img" title="HTML5">
 
                             <img src="images/css-svgrepo-com.svg" alt="css logo" class="FE-img" title="CSS">
-                            <img src="images/js-svgrepo-com.svg" alt="Javascript logo" class="FE-img" title="Javascript">
-                            <img src="images/tailwindcss-icon-svgrepo-com.svg" alt="tailwincss logo" class="FE-img" title="TailwindCSS">
+                            <img src="images/js-svgrepo-com.svg" alt="Javascript logo" class="FE-img"
+                                title="Javascript">
+                            <img src="images/tailwindcss-icon-svgrepo-com.svg" alt="tailwincss logo" class="FE-img"
+                                title="TailwindCSS">
                             <img src="images/react-svgrepo-com.svg" alt="reactjs logo" class="FE-img" title="React">
                             <img src="images/git-icon-svgrepo-com.svg" alt="git logo" class="FE-img" title="Git">
                         </div>
@@ -114,7 +126,8 @@
                             </p>
                         </div>
                         <div class="technologies-BE">
-                            <img src="images/node-dot-js-svgrepo-com.svg" alt="nodejs logo" class="BE-img" title="NodeJS">
+                            <img src="images/node-dot-js-svgrepo-com.svg" alt="nodejs logo" class="BE-img"
+                                title="NodeJS">
                             <img src="images/mongo-svgrepo-com.svg" alt="MongoDB logo" class="BE-img" title="MongoDB">
                         </div>
                     </div>
@@ -129,22 +142,28 @@
                             <img src="images/zuri-website.png" alt="zuri.team logo" class="project-card__img ">
                         </div>
                         <div class="project-card-body">
-                            <p class="project-title color-heading">Zuri Website Clone</p>
+                            <a href="https://289volts.github.io/Zuri.team-website-clone/" class="live-link"><p class="project-title color-heading" target=""_blank>Zuri Website Clone</p></a>
                             <div class="project-text">
                                 <p class="project-description">This was the final task for 2022 Cohort 1 of the <a
                                         class="ext-link"
-                                        href="https://zuri.team" target="_blank">Zuri training</a>. The aim of the task was to get
+                                        href="https://training.zuri.team" target="_blank">Zuri training</a>. The aim of the task
+                                    was to get
                                     participants
-                                    to put all they've learned during the training to practice. This website is fully
-                                    responsive.</p>
+                                    to put all they've learned during the training to practice.</p>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/289Volts/Zuri.team-website-clone" class="source-code" target="_blank">View Source Code</a>
+                                <img src="images/code-svgrepo-com.svg" alt="git logo" class="source-code__img" title="Link to GitHub repo" width="9.5%">
                             </div>
                             <div class="project-technologies">
                                 <img src="images/html-svgrepo-com.svg" alt="html logo"
                                     class="project-technologies__img" title="HTML5">
-                                <img src="images/css-svgrepo-com.svg" alt="css logo" class="project-technologies__img" title="CSS">
+                                <img src="images/css-svgrepo-com.svg" alt="css logo" class="project-technologies__img"
+                                    title="CSS">
                                 <img src="images/js-svgrepo-com.svg" alt="Javascript logo"
                                     class="project-technologies__img" title="Javascript">
                             </div>
+
                         </div>
                     </div>
                     <div class="project-card">
@@ -153,18 +172,24 @@
                             <img src="images/scoreboard.png" alt="zuri.team logo" class="project-card__img ">
                         </div>
                         <div class="project-card-body">
-                            <p class="project-title color-heading">Scoreboard Counter</p>
+                            <a href="https://289volts.github.io/Javascript-basketball-scoreboard/" class="live-link" target="_blank"><p class="project-title color-heading">Scoreboard Counter</p></a>
                             <div class="project-text2">
-                                <p class="project-description">This was a task from the <a
-                                        href="https://scrimba.com/learn/learnjavascript" target="_blank">Javascript course</a> by <a
+                                <p class="project-description">This was a task from the <a class="ext-link"
+                                        href="https://scrimba.com/learn/learnjavascript" target="_blank">Javascript
+                                        course</a> by <a class="ext-link"
                                         href="https://scrimba.com">Scrimba</a>. The aim of the task was to put the use
                                     of loops
                                     and variables to practice.</p>
                             </div>
+                            <div class="project-links">
+                                <a href="https://github.com/289Volts/Javascript-basketball-scoreboard" class="source-code" target="_blank">View Source Code</a>
+                                <img src="images/code-svgrepo-com.svg" alt="git logo" class="source-code__img" title="Link to GitHub repo" width="9.5%">
+                            </div>
                             <div class="project-technologies">
                                 <img src="images/html-svgrepo-com.svg" alt="html logo"
                                     class="project-technologies__img" title="HTML5">
-                                <img src="images/css-svgrepo-com.svg" alt="css logo" class="project-technologies__img" title="CSS">
+                                <img src="images/css-svgrepo-com.svg" alt="css logo" class="project-technologies__img"
+                                    title="CSS">
                                 <img src="images/js-svgrepo-com.svg" alt="Javascript logo"
                                     class="project-technologies__img" title="Javascript">
                             </div>
