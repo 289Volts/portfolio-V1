@@ -373,7 +373,7 @@ nav {
 }
 
 .service-card {
-	padding: 2.5rem;
+	padding: 2.5rem 1.5rem 2.5rem 2.5rem;
 	border: 2px solid white;
 }
 
@@ -496,7 +496,7 @@ nav {
 }
 
 .project-card-body {
-	padding: 0.3rem 2.5rem 1rem 2.5rem;
+	padding: 0.3rem 2.8rem 1rem 2.5rem;
 	background-color: var(--projectCardBg);
 }
 
@@ -909,5 +909,9 @@ footer {
 
 	.about-img {
 		width: 100%;
+	}
+
+	.contact {
+		    padding: 3rem 0 1.5rem;
 	}
 }
