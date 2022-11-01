@@ -67,6 +67,7 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	padding: 1.5rem 1rem;
+	min-height: 80px;
 	position: fixed;
 	top: 0;
 	z-index: 100;
@@ -75,6 +76,12 @@ header {
 
 header.container {
 	width: 100%;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .logo {
@@ -215,7 +222,7 @@ footer {
 footer {
 	background-color: var(--footerText);
 	min-height: 25vh;
-	margin-top: 4rem;
+	margin-top: 2rem;
 	padding: 3rem 0;
 }
 
@@ -251,7 +258,7 @@ footer {
 }
 
 .twitter::before {
-	background-color: rvar(--underline);
+	background-color: var(--underline);
 }
 
 .linkedin::before {
@@ -280,7 +287,12 @@ footer {
 	}
 
 	header {
-		padding: 1rem 0 0.5rem 2rem;
+		padding: 0rem 0 0rem 2rem;
+	}
+
+	.header {
+		width: 85%;
+		margin: 0 auto;
 	}
 
 	.logo {
@@ -296,20 +308,21 @@ footer {
 		position: static;
 		height: auto;
 		padding: 0;
-		width: 63%;
 		background-color: transparent;
 		color: var(--nav-link);
 	}
 
 	.nav-links {
 		display: flex;
-		gap: 1.7rem;
+		gap: 1.8rem;
 		align-items: center;
+		height: 80px;
 	}
 
 	.nav-link {
 		font-size: 0.9rem;
 		transition: 0.5s;
+		padding: 0;
 	}
 
 	.nav-link:hover {
