@@ -18,7 +18,7 @@ li {
 	--accentHover: #9440e8;
 	--heroBg: #141b26;
 	--navBg: white;
-	--underline: #9440e8;
+	--underline: #9016DB;
 	--frontend: #2c49d8;
 	--backend: #ff6b2b;
 	--sectionsBg: #1a191d;
@@ -324,7 +324,7 @@ nav {
 }
 
 .ext-link {
-	border-bottom: 2px solid var(--accent);
+	border-bottom: 2.5px solid var(--underline);
 }
 
 .resume {
@@ -627,34 +627,33 @@ footer {
 .email::before,
 .github::before {
 	content: "";
-	width: 105%;
+	width: 100%;
 	height: 0.35rem;
 	border-radius: 1px;
 	position: absolute;
-	bottom: 1px;
-	left: -2px;
+	bottom: -2px;
 	z-index: -1;
 	opacity: 0.8;
 }
 
 .twitter::before {
-	background-color: rgb(3, 158, 255);
+	background-color: var(--underline);
 }
 
 .linkedin::before {
-	background-color: rgb(0, 124, 201);
+	background-color: var(--underline);
 }
 
 .whatsapp::before {
-	background-color: rgb(4, 180, 4);
+	background-color: var(--underline);
 }
 
 .email::before {
-	background-color: red;
+	background-color: var(--underline);
 }
 
 .github::before {
-	background-color: gray;
+	background-color: var(--underline);
 }
 
 .email {
