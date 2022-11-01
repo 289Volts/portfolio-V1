@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="contact.css">
+        <script src="script.js" defer></script>
+        <title>Contact Me</title>
+    </head>
+    <body>
+        <header class="container">
+            <a class="logo" href="index.html">289<span class="volts">VOLTS.fe</span><span class="blink">_</span></a>
+            <img class="menu" id="menu" onclick="toggle()" src="images/menu-svgrepo-com.svg" alt="nav open button">
+            <nav id="nav">
+                <ul class="nav-links">
+                    <img class="close" id="menu" onclick="hide()" src="images/close-svgrepo-com.svg" alt="nav close button">
+                    <li class="nav-list"><a onclick="hide()" class="nav-link" href="#about"><span aria-hidden="true"
+                                class="comment">//</span>About</a></li>
+                    <li class="nav-list"><a onclick="hide()" class="nav-link" href="#services"><span aria-hidden="true"
+                                class="comment">//</span>Services</a></li>
+                    <li class="nav-list"><a onclick="hide()" class="nav-link" href="#project"><span aria-hidden="true"
+                                class="comment">//</span>Projects</a></li>
+                    <li class="nav-list"><a onclick="hide()" class="nav-link" href="contact.html"><span
+                                aria-hidden="true"
+                                class="comment">//</span>Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="">
+            <section class="contact">
+                <h1 class="contact-title">Contact Me</h1>
+                <p class="contact-text">If you have any questions or want to work with me, feel free to contact me.</p>
+                <form class="contact-form" action="mailto:289volts@gmail.com" method="post" id="form">
+                    <div class="form-input">
+                        <label for="name">Full Name</label>
+                        <input class="contact-input" type="text" name="name" placeholder="Name" id="name">
+                    </div>
+                    <div class="form-input">
+                        <label for="email">Email</label>
+                        <input class="contact-input" id="email" type="email" name="email" placeholder="Enter a valid Email" required>
+                    </div>
+                    <div class="form-input">
+                        <label for="message"></label>
+                        <textarea class="contact-input" name="message" rows="12" placeholder="Message" ></textarea>
+                    </div>
+                    <div class="form-submit">
+                        <button class="contact-button" type="submit" name="submit">Send</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <div class="container">
+                <div class="social-links">
+                    <a href="https://twitter.com/289volts" class="twitter" target="_blank">Twitter</a>
+                    <a href="Https://Www.Linkedin.Com/In/Joshua-Roland" class="linkedin" target="_blank">LinkedIn</a>
+                    <a href="wa.me/2348149326216" class="whatsapp" target="_blank">WhatsApp</a>
+                    <a href="https://github.com/Rolandandkose" class="github" target="_blank">Github</a>
+                    <a href="mailto:joshuaroland289@gmail.com" class="email" target="_blank">joshuaroland289@gmail.com</a>
+                </div>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
