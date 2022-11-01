@@ -18,7 +18,7 @@ li {
 	--accentHover: #9440e8;
 	--heroBg: #141b26;
 	--navBg: white;
-	--underline: #9016DB;
+	--underline: #9016db;
 	--frontend: #2c49d8;
 	--backend: #ff6b2b;
 	--sectionsBg: #1a191d;
@@ -71,7 +71,7 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	padding: 1.5rem 1rem;
-	height: 70px;
+	min-height: 80px;
 	position: fixed;
 	top: 0;
 	z-index: 100;
@@ -665,7 +665,15 @@ footer {
 	}
 
 	header {
-		padding: 1rem 0 1rem 2rem;
+		padding: 0rem 0 0rem 2rem;
+	}
+
+	.header {
+		width: 85%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 0 auto;
 	}
 
 	.logo {
@@ -681,19 +689,19 @@ footer {
 		position: static;
 		height: auto;
 		padding: 0;
-		width: 66%;
 		background-color: transparent;
 		color: var(--nav-link);
 	}
 
 	.nav-links {
 		display: flex;
-		gap: 2.3rem;
+		gap: 1.5rem;
 		align-items: center;
+		height: 80px;
 	}
 
 	.nav-link {
-		font-size: 0.9rem;
+		font-size: 0.875rem;
 		transition: 0.5s;
 		padding: 0;
 	}
@@ -791,7 +799,7 @@ footer {
 }
 
 @media (min-width: 768px) {
-.nav-link {
+	.nav-link {
 		font-size: 1rem;
 	}
 
@@ -859,39 +867,38 @@ footer {
 	}
 
 	.card-img:nth-of-type(1) {
-    width: 16%;
-}
+		width: 16%;
+	}
 
-.project {
-	width: 75%;
-}
+	.project {
+		width: 75%;
+	}
 
-.source-code__img {
-	width: 5.5%;
-}
+	.source-code__img {
+		width: 5.5%;
+	}
 
-.project-text::before {
-    height: 60%;
-    bottom: 20%;
-}
+	.project-text::before {
+		height: 60%;
+		bottom: 20%;
+	}
 
-.project-text2::before {
-    height: 50%;
-    bottom: 26%;
-}
+	.project-text2::before {
+		height: 50%;
+		bottom: 26%;
+	}
 
-.project-card:nth-of-type(1) {
-	height: fit-content;
-}
+	.project-card:nth-of-type(1) {
+		height: fit-content;
+	}
 
-.inc {
-	padding-bottom: 2.3rem;
-}
+	.inc {
+		padding-bottom: 2.3rem;
+	}
 
-.project-technologies__img {
-	width: 10% !important;
-}
-
+	.project-technologies__img {
+		width: 10% !important;
+	}
 }
 
 @media (min-width: 1300px) {
@@ -913,6 +920,6 @@ footer {
 	}
 
 	.contact {
-		    padding: 3rem 0 1.5rem;
+		padding: 3rem 0 1.5rem;
 	}
 }
