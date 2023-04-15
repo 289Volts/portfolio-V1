@@ -432,6 +432,16 @@ nav {
 	margin-top: 0.7rem;
 }
 
+.technologies-FE {
+	justify-content: flex-start;
+	gap: 1rem;
+}
+
+.next {
+	background-color: white;
+	/* width: 11%; */
+}
+
 .FE-img {
 	width: 11%;
 	aspect-ratio: 1;
@@ -439,6 +449,9 @@ nav {
 
 .FE-img:nth-of-type(1) {
 	width: 11%;
+}
+.FE-img:nth-of-type(2) {
+	width: 20%;
 }
 
 .card-img:nth-of-type(1) {
